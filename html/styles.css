@@ -39,7 +39,7 @@ justify-content: center;
 .price-wrapper{
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    
 
 }
 

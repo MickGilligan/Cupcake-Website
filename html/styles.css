@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(115, 166, 181);
+}
+.flex-container {
+  display: flex; 
+}
+ /* this selector selects all divs inside of .flex-container */
+ .flex-container div {
+    background: rgb(90, 150, 169);
+    border: 1px solid rgb(9, 1, 1);
+    height: 180px;
+    flex: 1;
+  }
+
+  img{
+    height:auto;
+    width: 400px;
+}
+img{
+    <img src="https://cdn.pixabay.com/photo/2018/02/03/06/45/sweet-3127015__480.jpg"
+      width="400" 
+     height="500"/>
+}

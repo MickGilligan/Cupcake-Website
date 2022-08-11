@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(115, 166, 181);
+    background-color: rgb(145, 154, 157);
 }
 .flex-container {
   display: flex; 
@@ -12,8 +12,14 @@ body{
     flex: 1;
   }
 
+.title {
+color: purple;
+font-size: 50px;
+}
 
-
+.summary{
+    font-size: 30px;
+}
 .cupcakeimage{
      width:400px;
 
@@ -36,10 +42,14 @@ justify-content: center;
     padding: 10px;
 }
 
-.price-wrapper{
-    display: flex;
-    flex-direction: column;
-    
-
+.flavor-price {
+    float:right;
+    width: 50%;
 }
-
+.flavor {
+    float:right;
+    width: 50%;
+}
+.navigation-size{
+    font-size: 400px;
+}
